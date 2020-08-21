@@ -1,7 +1,10 @@
-Body {  
-    font-family: Calibri, Helvetica, sans-serif;  
-    background-color: pink;  
-  }  
+.fixed-top {
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
   button {   
          background-color: #4CAF50;   
          width: 100%;  

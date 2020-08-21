@@ -16,10 +16,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/home.css">
-    <title>JanJeevan</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/contact.css">
 
+    <title> JanJeevan </title>
 </head>
 
 <body>
@@ -30,13 +30,14 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon">
+                    </span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <div class="mr-auto"></div>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <button type="button" class="btn"><a class="nav-link" href="#">Home</a></button>
+                            <button type="button" class="btn"><a class="nav-link" href="../index.html">Home</a></button>
                         </li>
                         <li class="nav-item">
                             <button type="button" class="btn"><a class="nav-link" href="#">Our
@@ -48,13 +49,13 @@
                                 Dropdown
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="html/doctor.html">Our_Doctors</a>
-                                <a class="dropdown-item" href="html/patient.html">Our_Patient</a>
+                                <a class="dropdown-item" href="doctor.html">Our_Doctors</a>
+                                <a class="dropdown-item" href="patient.html">Our_Patient</a>
                             </div>
                         </button>
                         </li>
                         <li class="nav-item">
-                            <button type="button" class="btn"><a class="nav-link" href="html/contact.html">Contact
+                            <button type="button" class="btn"><a class="nav-link" href="contact.html">Contact
                                     Us</a></button>
                         </li>
                     </ul>
@@ -62,9 +63,36 @@
             </nav>
         </div>
     </header>
-<section class="home">
-    
-</section>
+   
+<div class="container">
+    <div style="text-align:center">
+      <h2>Contact Us</h2>
+      <p>Take a long Breath, Dont hesitate to share anything and do Contact Us</p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="../bg2.jpg" style="width:100%">
+      </div>
+      <div class="column">
+        <form action="#">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">INDIA</option>
+            <option value="usa">USA</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
 
 
 </body>
